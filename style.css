@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%) ;
+}
+
+.Maincontainer{
+    width: 500px;
+    height: 375px;
+    background-color: whitesmoke;
+    margin:  90px auto;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px 10px;
+}
+
+.background{
+    background: url(images/image-product-desktop.jpg);
+    width: 250px;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.firstcontainer{
+    padding-top: 20px;
+}
+
+
+.headcontainer{
+    color: hsl(158, 36%, 37%);
+}
+
+.textcontainer{
+    color: hsl(212, 21%, 14%);
+}
+.moneycontainer{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+}
+.cancelPrice{
+    text-decoration: line-through;
+}
+
+.container1{
+    font-size: x-large;
+    color: goldenrod
+}
+img{
+    width: 10px;
+}
+.button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    padding: 7px 45px;
+    margin: 4px 2px;
+    border-radius: 8px 8px;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
